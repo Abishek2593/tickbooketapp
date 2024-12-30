@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKBOOKET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="css/style1.css">
+     <link rel="stylesheet" href="css/bus.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">TICKBO<span id="ok">OK</span>ET</a>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 ser" type="search"
+                    placeholder="Search for movies,buses,trains,concerts,events ..." aria-label="Search">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle location" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Location
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Erode</a></li>
+                        <li><a class="dropdown-item" href="#">Madurai</a></li>
+                        <li><a class="dropdown-item" href="#">Chennai</a></li>
+                        <li><a class="dropdown-item" href="#">Thirchy</a></li>
+                        <li><a class="dropdown-item" href="#">Nagapatinam</a></li>
+                        <li><a class="dropdown-item" href="#">Pondicherry</a></li>
+                        <li><a class="dropdown-item" href="#">Comibatore</a></li>
+                    </ul>
+                </div>
+                <button class="btn btn-outline-danger" type="submit">SignIn</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav2">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link firstnavitem" href="index.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="concert.html">Concert</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bus.html" style="color: black;">Bus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Plays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Activites</a>
+                    </li>
+
+                    <li class="nav-item nav_item1">
+                        <a class="nav-link" href="#">Book Your Various Tickets Via TICKBO<span id="ok">OK</span>ET !</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="banner_container">
+        
+        
+    </div>
+   <div class="bannerinput">
+    <input type="text" class="banneritems1" placeholder="From Station">
+    <i class="fa-solid fa-left-right"></i>
+    <input type="text" class="banneritems1" placeholder="To Station">
+    <input type="date" class="banneritems1">
+    <input type="button" class=" btn1" value="Today">
+    <input type="button" class=" btn1" value="Tomorrow">
+    <input type="button" class=" btn2" value="Search">
+
+
+    
+   </div>
+   <i class="fa-solid fa-location-crosshairs from"></i>
+   <i class="fa-solid fa-location-dot to"></i>
+   <input type="button" class="btn bookyourticket" value="Book Your Ticket" onclick="ticketMenu()"> 
+
+   <h4 id="bookingtext">Bus Booking Discount Offers</h4>
+   <div class="bookingoffers">
+    <img src="assets/images/b1.jpg" class="bookingoffersimages imgb1" alt="banner1">
+    <img src="assets/images/b2.jpg" class="bookingoffersimages" alt="banner2">
+    <img src="assets/images/b3.jpg" class="bookingoffersimages" alt="banner3">
+    
+   </div>
+
+
+   <div class="black">
+    <img src="assets/images/bannerpng.webp" class="png1" alt="">
+    <div class="bannerright">
+     <div><h2 id="bannertext">
+        Make Your Travel Memorable <br>
+        Install TICKBO<span id="ok">OK</span>ET App
+     </h2></div>
+     <div class="rightone1">
+     <div class="rightoneone">
+        <h5><i class="fa-solid fa-check check"></i></i> Get Notified</h5>
+        <label for="">When the bus starts and is
+            about to reach you.</label>
+     </div>
+
+     <div class="rightoneone">
+        <h5><i class="fa-solid fa-check check"></i></i>  
+            Lightning Fast</h5>
+        <label for="">Book in 30 seconds
+            even on Low Network.</label>
+     </div>
+
+     <div class="rightoneone">
+        <h5><i class="fa-solid fa-check check"></i></i> Trusted by Millions</h5>
+        <label for="">Over 200,000 reviews
+            from our customers..</label>
+     </div>
+
+     <div class="rightoneone">
+        <h5><i class="fa-solid fa-check check"></i></i> Enjoy Other Stuff</h5>
+        <label for="">Games, offers, Free Rides
+            and a lot more.</label>
+     </div>
+     </div>
+     
+     <div class="righttwo">
+        <h5>Available On</h5>
+        <img src="assets/images/ratings.webp" class="rating" alt="">
+        <img src="assets/images/playstore.webp" alt="">
+        <label for="">4.7/5 based on 285663 reviews Trusted by 5+ Crores Travellers.</label>
+     </div>
+
+    </div>
+   </div>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="js/bus.js"></script>
+    </body>
+    </html>

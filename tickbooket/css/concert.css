@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(255, 252, 248);
+}
+.concert_container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 10px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.concertimages {
+    height: 350px;
+    border-radius: 10px;
+}
+
+.right1 {
+    display: flex;
+    gap: 10px;
+}
+
+.right1_1 {
+    margin-left: 45px;
+    width: 21%;
+    gap: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.right1_text {
+    margin-top: 20px;
+}
+
+.right1_2 {
+    color: rgb(86, 86, 86);
+}
+
+.right1_two {
+    width: 21%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.filter{
+    position: relative;
+    left: -50px;
+}
+.left1 {
+
+    padding-left: 20px;
+
+}
+
+.left1_one {
+    padding-right: 5px;
+    padding-top: 10px;
+    height: 27vh;
+    background-color:white;
+    border: 1px solid rgb(215, 214, 214);
+}
+
+.left2_one {
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    height: 25vh;
+    background-color:white;
+    border: 1px solid rgb(215, 214, 214);
+}
+
+.left3_one {
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    height: 15vh;
+    background-color:white;
+    border: 1px solid rgb(215, 214, 214);
+}
+
+
+.left1nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    left: -20px;
+    gap: 300px;
+}
+
+.down {
+    margin-left: 20px;
+    position: relative;
+    top: -7.5px;
+}
+
+.dateclear {
+    color: red;
+}
+
+.clear {
+    color: grey;
+}
+
+.btn2 {
+    color: red;
+    background-color: transparent;
+    border: 1px solid rgb(215, 214, 214);
+    height: 40px;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.btn2:hover{
+    color:white;
+    background-color: red;
+    transition: 1sec;
+}
+
+#checkbox {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.data{
+position: relative;
+left:10px;
+}
+
+#browse{
+    margin-top: 20px;
+    width:100%;
+    height:5vh;
+    border:2px solid red;
+    background-color: transparent;
+    color:red;
+}

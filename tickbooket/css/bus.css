@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+#banner_container{
+    height: 40vh;
+    background-image: url('/assets/images/banner6.jpg');
+    background-repeat: no-repeat;
+    background-position: 10% 90%;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.bannerinput{
+ background-color: rgba(255, 255, 255, 0.379);
+ backdrop-filter: blur(10px);
+ height: 10vh;
+ width: 78%;
+ align-items: center;
+ display:flex;
+ gap:10px;
+ position: relative;
+ top:-150px;
+ left:150px;
+ padding-left: 10px;
+ border-radius: 10px;
+}
+
+.banneritems1{
+height:70%;
+width: 250px;
+padding-left: 10px;
+border: 1px solid rgba(128, 128, 128, 0.519);
+border-radius: 10px;
+}
+
+.btn1{
+    height: 70%;
+    border-radius: 10px;
+    width: 100px;
+    background-color:rgb(222, 221, 220);
+    border:none;
+}
+
+.btn2{
+    height: 80%;
+    width: 120px;
+    border-radius: 10px;
+    background-color:red;
+    color:white;
+    border: none;
+    font-size: 19px;
+}
+.from{
+    position: relative;
+    top:-210px;
+    color:rgb(0, 0, 0);
+    left:380px;
+}
+
+.to{
+    position: relative;
+    top:-210px;
+    color:rgb(0, 0, 0);
+    left:645px; 
+}
+
+.bookyourticket{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top:-270px;
+    left:120px;
+}
+#bookingtext{
+    margin-top: -90px;
+    margin-left: 100px;
+  
+}
+
+.bookingoffers{
+    display: flex;
+    gap:10px;
+   
+}
+
+
+.bookingoffersimages{
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 20px;
+}   
+
+.imgb1{
+    margin-left: 95px;
+}
+
+.black{
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 60px;
+    height:65vh;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.png1{
+height:490px;
+position: relative;
+top:-30px;
+left:150px;
+filter: drop-shadow(2px 2px 10px rgb(0, 0, 0));
+}
+
+#bannertext{
+    color:white;
+}
+
+.rightone1{
+    margin-top:10px;
+    color:white;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.check{
+    color:rgb(255, 0, 0);
+}
+
+.righttwo{
+    margin-top:10px;
+    color:white;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.rating{
+    height: 22px;
+}
+
+#video{
+    height:350px;
+}
